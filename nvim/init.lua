@@ -18,4 +18,5 @@ vim.g.mapleader = " "
 -- Setup lazy.nvim
 require("lazy").setup("plugins")
 
-vim.cmd.colorscheme("rose-pine")
+require("config.options")
+require("config.keymaps")
