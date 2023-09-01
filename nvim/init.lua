@@ -18,9 +18,6 @@ vim.g.mapleader = " "
 -- Setup lazy.nvim
 require("lazy").setup("plugins")
 
--- Setup plugins
-require('leap').add_default_mappings()
-
 -- Basic configs
 require("config.options")
 require("config.keymaps")
