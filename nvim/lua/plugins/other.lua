@@ -65,6 +65,5 @@ return {
 			vim.keymap.set('n', '<leader>fb', builtin.buffers, {desc = "buffers"})
 			vim.keymap.set('n', '<leader>fh', builtin.help_tags, {desc = "help_tags"})
 		end
-
 	},
 }
