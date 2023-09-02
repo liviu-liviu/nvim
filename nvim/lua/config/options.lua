@@ -11,6 +11,8 @@ opt.shiftwidth = 4
 opt.hlsearch = false
 opt.incsearch = true
 
+opt.cursorline = true
+
 -- Other settings
 
 vim.cmd.colorscheme("rose-pine")
