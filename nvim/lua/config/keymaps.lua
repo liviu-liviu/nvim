@@ -7,3 +7,6 @@ map.set("n", "<leader>e", vim.cmd.Ex, {desc = "open file explorer"})
 map.set("n", "J", "mzJ`z")
 
 map.set("n", "<leader>x", "<cmd>!chmod u+x %<CR>", {silent = true, desc = "make current file executable"})
+
+map.set("n", "<leader>o", 'o<Esc>0"_D', {desc = "insert empty line below"})
+map.set("n", "<leader>O", 'O<Esc>0"_D', {desc = "insert empty line above"})
