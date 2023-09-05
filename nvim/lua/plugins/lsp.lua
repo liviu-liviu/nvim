@@ -23,6 +23,9 @@ return {
 					buffer = bufnr,
 					preserve_mappings = false, -- By default lsp-zero will not create a keybinding if its "taken".
 				})
+
+				-- Replace default gr. Use telescope preview windows instead of quickfix window.
+				vim.keymap.set('n', 'gr', '<cmd>Telescope lsp_references<cr>', {buffer = true})
 			end)
 
 			require("mason-lspconfig").setup({
