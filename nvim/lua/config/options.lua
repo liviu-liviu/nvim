@@ -13,6 +13,8 @@ opt.incsearch = true
 
 opt.cursorline = true
 
+opt.scrolloff = 8 -- Minimal number of screen lines to keep above and below the cursor.
+
 -- Other settings
 
 vim.cmd.colorscheme("rose-pine")
