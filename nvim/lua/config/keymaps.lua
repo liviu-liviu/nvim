@@ -11,7 +11,7 @@ map.set("n", "<leader>x", "<cmd>!chmod u+x %<CR>", {silent = true, desc = "make 
 map.set("n", "<leader>o", 'o<Esc>0"_D', {desc = "insert empty line below"})
 map.set("n", "<leader>O", 'O<Esc>0"_D', {desc = "insert empty line above"})
 
-map.set("n", "<leader>h", "<cmd>set hlsearch!<CR>", {desc = "toggle hlsearch"})
+map.set("n", "<leader>H", "<cmd>set hlsearch!<CR>", {desc = "toggle hlsearch"})
 
 map.set({"n", "v"}, "<leader>y", '"+y', {noremap = true, desc = "yank into PRIMARY"})
 map.set({"n", "v"}, "<leader>p", '"+p', {noremap = true, desc = "past from PRIMARY"})
